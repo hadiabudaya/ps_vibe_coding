@@ -10,7 +10,7 @@ _____
 
 ## Launch path
 
-- [Y] Copy & Customize (start from a scenario starter prompt)
+- [ ] Copy & Customize (start from a scenario starter prompt)
 - [ ] First Screen Method (build only the very first screen the user sees)
 
 ## The build
