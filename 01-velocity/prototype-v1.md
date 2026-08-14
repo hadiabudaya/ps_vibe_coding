@@ -5,18 +5,18 @@
 ## Scenario
 
 _Which of the four scenarios (or your own, instructor-approved) did you build?_
-
+The Retention Engine (B2B SaaS 90-day churn intervention flow)
 _____
 
 ## Launch path
 
-- [ ] Copy & Customize (start from a scenario starter prompt)
+- [x] Copy & Customize (start from a scenario starter prompt)
 - [ ] First Screen Method (build only the very first screen the user sees)
 
 ## The build
 
-- **What I built:** _____
-- **Tool used:** Lovable / v0 / Cursor / Bolt / Replit
+- **What I built:** RetentionEngine—a B2B SaaS dashboard that tracks customer health scores, lets CS teams set up automated in-app intervention rules, and simulates the end-user recovery experience in real time.
+- **Tool used:** Lovable
 - **Shareable link:** _____
 
 ## Show & Swap read
