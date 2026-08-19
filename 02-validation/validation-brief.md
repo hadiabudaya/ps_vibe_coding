@@ -1,44 +1,25 @@
 # Validation Brief
 
-> Module 2 · Validation. Frame the riskiest assumption, then build to test it. **This locks your scenario, no switching after M2.**
+**Scenario:** Scenario 1 - The Retention Engine
 
-## Scenario
+## 1 · Hypothesis
+I'm testing whether Accurately surfacing customers at risk of churn early will help Customer Success teams intervene before those customers leave
 
-Scenario 01 · The Retention Engine
+## 2 · Risk type & kill switch
+- **Risk type:** Feasibility
+- **Build to test it:** Functional app
+- **Kill switch:** If fewer than 70% of high risk predictions are validated by actual churn or clear churn signals, the prediction is not reliable enough and we need to rethink the approach.
 
-## Riskiest assumption
+## 3 · Success criteria
+At least 70% of customers identified as high risk are confirmed to have genuine churn risk, with enough advance warning for CS to intervene.
 
-_The one belief that, if false, sinks the idea._
+## 4 · Problem Framework
+1. **Goal**, Reduce customer churn by helping CS teams identify at risk customers early enough to intervene.
+2. **Problem**, CS teams cannot reliably identify which customers are likely to churn before it is too late to intervene.
+3. **Context**, Customer Success teams managing B2B SaaS accounts, particularly during the first 30 days after onboarding.
+4. **Constraints**, We must work with available customer data and provide useful predictions early enough for CS teams to act.
+5. **Success**, At least 70% of high risk predictions correspond to customers with verified churn risk, and the risk is identified before the customer churns.
+6. **Explore**, Can available customer data predict churn accurately and early enough for CS teams to trust and act on the prediction?
 
-Churn predictions aren’t accurate enough for CS teams to trust and act on them.
-
-## Hypothesis
-
-> We believe **accurately identifying customers at risk of churning early** will cause **more timely and targeted CS interventions** for **Customer Success teams managing enterprise accounts**. We'll know we're right when **the majority of customers flagged as high risk actually show churn behavior and CS teams act on those alerts before churn occurs**.
-
-## Risk type
-
-- [ ] Value (do they want it?)
-- [x] Usability (can they use it?)
-- [ ] Feasibility (can we build it?)
-- [x] Viability (should we?)
-
-## Kill switch
-
-_The result that would make you stop or pivot._
-
-If fewer than 70% of customers flagged as high churn risk actually churn or show verified churn signals, the prediction isn’t reliable enough for CS teams to act on, so we stop or fundamentally rethink the product.
-
-## The three ingredients
-
-- **Real data (domain metrics):**
-  - 30%, 90-day churn: share of new accounts gone within 3 months.
-  - 22%, Activation rate: reach the "aha" action in week one.
-  - 1.4, Seats active / account: adoption rarely spreads past the buyer.
-  - 6.2 days, Time-to-first-value: median, vs. 1-day target.
-  - $1.1M, ARR at risk in the next renewal window.
-- **User voice (verbatim quotes):**
-  - "Nobody on my team adopted it, so I stopped logging in. It felt like one more tool to babysit.", Eng manager, churned day 47
-  - "I signed up, poked around for ten minutes, and never figured out what it actually did for my team.", Ops lead, churned day 12
-  - "The value was probably in there somewhere, but I needed it to prove itself in week one, not month three.", Founder, churned day 63
-- **Hypothesis (above):** ✓
+---
+_Module 2 · Vibe Coding Certification · frame before you build._
