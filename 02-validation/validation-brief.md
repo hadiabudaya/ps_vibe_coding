@@ -3,12 +3,12 @@
 **Scenario:** Scenario 1 - The Retention Engine
 
 ## 1 · Hypothesis
-I'm testing whether Accurately surfacing customers at risk of churn early will help Customer Success teams intervene before those customers leave
+I'm testing whether accurately identifying customers at risk of churn within their first 60 days gives Customer Success teams enough confidence and advance warning to intervene before the 90 day mark.
 
 ## 2 · Risk type & kill switch
 - **Risk type:** Feasibility
 - **Build to test it:** Functional app
-- **Kill switch:** At least 70% of high-risk predictions made within the first 60 days are confirmed to have genuine churn risk before the 90-day mark, allowing CS enough time to intervene.
+- **Kill switch:** Fewer than 70% of high risk predictions made within the first 60 days are confirmed to have genuine churn risk before the 90 day mark.
 
 ## 3 · Success criteria
 At least 70% of customers identified as high risk are confirmed to have genuine churn risk, with enough advance warning for CS to intervene.
