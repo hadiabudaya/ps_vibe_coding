@@ -16,7 +16,7 @@ At least 70% of customers identified as high risk are confirmed to have genuine 
 ## 4 · Problem Framework
 1. **Goal**, Reduce customer churn by helping CS teams identify at risk customers early enough to intervene.
 2. **Problem**, CS teams cannot reliably identify which customers are likely to churn before it is too late to intervene.
-3. **Context**, Customer Success teams managing B2B SaaS accounts, particularly during the first 90 days after onboarding.
+3. **Context**, Customer Success teams managing B2B SaaS accounts during the first 90 days after onboarding, with churn risk identified within the first 60 days.
 4. **Constraints**, We must work with available customer data and provide useful predictions early enough for CS teams to act.
 5. **Success**, At least 70% of high risk predictions correspond to customers with verified churn risk, and the risk is identified before the customer churns.
 6. **Explore**, Can available customer data predict churn accurately and early enough for CS teams to trust and act on the prediction?
